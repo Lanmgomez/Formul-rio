@@ -1,0 +1,104 @@
+.employee-form-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.add-employee-title {
+    font-size: 28px; 
+    font-weight: 600; 
+}
+
+.employee-form-item {
+    margin-bottom: 32px; 
+    max-width: 400px;
+    display: block;
+    flex-direction: column;
+    height: 50px;
+}
+
+.employee-form-title {
+    display: flex;
+    margin-left: 0;
+    margin-bottom: 8px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #1890FF; 
+}
+
+.employee-form-error {
+    color: rgb(233, 54, 54);
+    font-weight: bold;
+}
+
+.employee-form-input,
+.employee-form-input-age,
+.date-picker,
+.entry-date {
+    border-radius: 0px; 
+}
+
+.employee-form-input-age {
+    width: 112px; 
+}
+
+.employee-form-item-div, 
+.radio-group-div,
+.is-adult {
+    display: flex;
+}
+
+.employee-item-div {
+    padding-right: 16px; /* var(--spacing-xx-small) */
+}
+
+.issuing-body-select {
+    width: 100px;
+}
+
+.radio-group {
+    display: flex;
+    margin-top: 16px; /* var(--spacing-xx-small) */
+}
+
+.radio-group-div-child, 
+.datepicker-age {
+    margin-right: 16px; /* var(--spacing-xx-small) */
+}
+
+.datepicker-age,
+.is-adult {
+    margin-top: 8px; /* var(--spacing-xxx-small) */
+    width: 150px;
+}
+
+.employee-form-age {
+    margin-top: 8px; /* var(--spacing-xxx-small) */
+    width: 130px;
+}
+
+.entry-date, 
+.laboral-selection {
+    width: 100%;
+}
+
+.btns {
+    display: flex;
+    margin-top: 16px; /* var(--spacing-xx-small) */
+}
+
+.save-btn {
+    width: 200px;
+}
+
+.cancel-btn {
+    width: 150px;
+    border: 1px solid;
+    margin-left: 16px; /* var(--spacing-xx-small) */
+}
+
+
+
+
